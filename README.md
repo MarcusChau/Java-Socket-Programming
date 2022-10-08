@@ -13,7 +13,8 @@ There’s a lot of low-level stuff that needs to happen for these things to work
 > A socket connection means that two machines have information about each others netork location (IP address) and TCP port. Using the java.net.Socket class represents a socket. To open the port:
 
 
-<div align="center">Socket socket = new Socket(“127.0.0.1”, 5000)</div>
+>>>Socket socket = new Socket(“127.0.0.1”, 5000)
+
 - First arguement - **IP address of server** . ("127.0.0.1"  is the IP address of localhost, where code will run on the single stand-alone machine)
 - Second arguement -  **TCP port** . (Just a number representing which application to run on a server. For example, HTTP runs on port 80. The port number can be from 0 to 65535)
 
